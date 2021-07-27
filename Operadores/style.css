@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-background{ 
+    background-image: url(../Operadores/assets/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div div{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    /*margin: 20px;*/
+    margin-left: 200px; 
+    padding: 20px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+li{
+    padding: 10px;
+    border-style:double;
+    border-radius: 20px;
+    margin: 20px;
+    width: 250px;
+    height: 100px;
+    color: #673ab7;
+}
+
+h1{
+    color: #3f51b5;
+    text-align: center;
+}
+
+h2{
+    color: #2196f3;
+    text-align: center;
+}
+
